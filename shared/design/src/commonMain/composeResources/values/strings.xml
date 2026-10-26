@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Society</string>
+    <string name="tab_dues">Dues</string>
+    <string name="tab_expenses">Expenses</string>
+    <string name="tab_complaints">Complaints</string>
+    <string name="tab_notices">Notices</string>
+    <string name="tab_directory">Residents</string>
+    <string name="coming_soon">Coming soon</string>
+</resources>

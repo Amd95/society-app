@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Society</title>
+  <style>
+    :root { --g:#1b6b4a; --bg:#f6f8f7; --fg:#15201b; --card:#fff; --mut:#5d6b64; }
+    @media (prefers-color-scheme: dark) { :root { --g:#7fd6ac; --bg:#101613; --fg:#e8efeb; --card:#18211c; --mut:#9db0a6; } }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.45 system-ui, sans-serif; background:var(--bg); color:var(--fg); }
+    main { max-width:480px; margin:0 auto; padding:16px; }
+    .card { background:var(--card); border-radius:12px; padding:16px; margin-bottom:12px; }
+    h1 { font-size:20px; margin:0 0 4px; } h2 { font-size:16px; margin:0 0 8px; }
+    .mut { color:var(--mut); font-size:14px; }
+    .amt { font-size:32px; font-weight:700; margin:8px 0; }
+    .btn { display:block; width:100%; padding:14px; border:0; border-radius:10px; background:var(--g); color:#fff;
+           font:600 16px system-ui; text-align:center; text-decoration:none; margin-top:8px; }
+    .btn.alt { background:transparent; color:var(--g); border:1px solid var(--g); }
+    input { width:100%; padding:12px; border:1px solid var(--mut); border-radius:10px; font-size:16px; margin-top:8px;
+            background:var(--card); color:var(--fg); }
+    table { width:100%; border-collapse:collapse; font-size:14px; } td { padding:6px 0; border-top:1px solid #8884; }
+    td:last-child { text-align:right; }
+    #lang { float:right; background:none; border:1px solid var(--mut); color:var(--fg); border-radius:8px; padding:4px 10px; }
+    .badge { font-size:13px; padding:2px 8px; border-radius:20px; background:#8883; }
+  </style>
+</head>
+<body>
+<main>
+  <button id="lang" type="button">EN</button>
+  <div id="root" aria-live="polite"></div>
+</main>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
